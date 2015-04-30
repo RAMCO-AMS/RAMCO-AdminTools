@@ -1,0 +1,218 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #E6E6E6;
+	width: 960px;
+	margin: 0 auto 2em;
+}
+
+header {
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	height: 96px;
+	padding: 32px 0 0 32px; 
+	border-style: dotted;
+	border-color: gray;
+}
+
+/* HOME is being used on admin.php */
+a.home:link, a.home:visited {
+    color: #0000ff;
+	font-family: "Courier New";
+    display: inline;
+    font-weight: normal;
+    background-color: #E6E6E6;
+    width: 150px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* mouse over link */
+a.home:hover {
+    color: #FF0000;
+}
+
+/* selected link */
+a.home:active {
+    color: #8000ff;
+}
+
+h1 {
+	font-family: "Courier New";
+	font-style: normal;
+	color: #0080ff;
+}
+
+h2 {
+	font-family: "Courier New";
+	font-style: normal;
+	color: #0080ff;
+}
+
+p {
+	font-family: "Courier New";
+}
+
+nav {
+	float: left;
+	padding-left:0px;
+	width: 150px;
+}
+
+div.form {
+	float: right;
+	padding-left: 15px;
+	padding-right: 5px;
+	width: 775px;
+}
+
+div {
+	float: left;
+	padding-left: 32px;
+	width: 810px;
+}
+
+div.result {
+	float: center;
+	padding-left: 0px;
+	width: 960px	;
+}
+
+
+
+<!--result is on RAMCO API result pages-->
+table.result {
+	background-color: #EFF2FB;
+	cellpadding: 1px;
+	padding:5px;
+	border: 1px solid black;
+	width: 960px;
+	padding: -512px;
+}
+
+td.result {
+	border: 1px solid black;
+	cellpadding: 1px;
+}
+
+th.result {
+	border: 1px solid black;
+	cellpadding: 1px;
+
+}
+
+tr.result {
+	border: 1px solid black;
+	cellpadding: 1px;
+}
+
+
+
+<!--display is on admin.php  page-->
+table.display {
+	cellpadding: 1px;
+	width: 800px;
+	padding: -512px;
+}
+
+td.display {
+	cellpadding: 1px;
+	width:350px;
+
+}
+
+th.display {
+	cellpadding: 1px;
+	float: left;
+}
+
+tr.display {
+	
+	cellpadding: 1px;
+}
+
+
+
+
+/*<!--display2 is on managment  pages link "AManageAccount.php"-->
+table.display2 {
+	background-color: #FFFFFF;
+	cellpadding: 1px;
+	padding:5px;
+	border: 1px solid black;
+	width: 600px;
+	padding: -512px;
+}*/
+
+td.display2 {
+	border: 1px solid black;
+	cellpadding: 5px;
+	padding: 3px;
+	
+}
+
+th.display2 {
+	border: 1px solid black;
+	cellpadding: 1px;
+
+}
+
+tr.display2 {
+	border: 1px solid black;
+	cellpadding: 1px;
+}
+
+
+/* Being used on admin result pages like AManageAccount.php */
+a.display2:link, a.display2:visited {
+    color: #0000ff;
+	font-family: "Courier New";
+    font-weight: normal;
+    background-color: #E6E6E6;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* mouse over link */
+a.display2:hover {
+    color: #FF0000;
+}
+
+/* selected link */
+a.display2:active {
+    color: #8000ff;
+
+
+footer {
+	
+}
+
+table.full {
+	background-color: #EFF2FB;
+        padding:5px;
+	border: 1px solid black;
+	width: 1280px;
+        margin-left: -155px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
