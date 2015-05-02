@@ -209,15 +209,19 @@ if (isset($_GET['formattedents'])){
     $json = curl_request($post);
     $data = json_decode($json, true);
 
-    asort($data['Data']);
-
-    $x=1;
-    foreach ($data['Data'] as $key => $value) {
-        $url = "admin.php?ent=$key";
-        echo $x++ .") <a class='home' href=".$url.">".$key."</a><br>";
+    if (isset($data['Data'])){  //make sure we are getting information returned from RAMCO
+        asort($data['Data']);
+        $x=1; // start enumeration counter
+        foreach ($data['Data'] as $key => $value) {
+            $url = "admin.php?ent=$key";
+            echo $x++ .") <a class='home' href=".$url.">".$key."</a><br>";
+        }
+    } else { //if not, alert user of configuration problems
         
+        echo "<strong>There was no information returned from RAMCO. Please check your configuration file.</strong>";  
     }
-
+    
+   
 }
 
 if (isset($_GET['contattrib'])){
