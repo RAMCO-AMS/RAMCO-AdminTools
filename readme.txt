@@ -16,4 +16,6 @@ Attributes: LastName,FirstName,cobalt_nrdsid,emailaddress1
 Another filter example:
 Filter: incidentid<sc>73a98cd0-f0ed-e411-a0aa-00155d631504
 
+I apparently left some custom fields in the attribute section in the admin pages. They will say "IAR" in them so if you remove those and you should be okay.
+
 Tweet if you need help. @mbrew22
